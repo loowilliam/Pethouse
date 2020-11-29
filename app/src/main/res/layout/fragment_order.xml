@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreyBackground">
+
+    <!--
+    Edited By: Eric
+    Date: 26 April 2020 19:00
+    Purpose: Add UI Design to Order
+    -->
+
+    <ImageView
+        android:id="@+id/box1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/home_background"/>
+
+    <TextView
+        android:id="@+id/tv_orderheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Order"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/box1"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

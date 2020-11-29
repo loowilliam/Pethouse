@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.AboutUsActivity"
+    android:background="@color/colorWhite">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/home_background"/>
+
+        <ImageView
+            android:id="@+id/iv_backbutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo_pethouse"/>
+
+        <TextView
+            android:id="@+id/tv_aboutusdescription"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="330dp"
+            android:text="@string/aboutus" />
+        <ImageView
+            android:id="@+id/iv_facebook"
+            android:layout_below="@id/tv_aboutusdescription"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_facebook"/>
+        <ImageView
+            android:id="@+id/iv_instagram"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/iv_facebook"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/instagram"/>
+        <ImageView
+            android:id="@+id/iv_twitter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/iv_instagram"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/twitter"/>
+        <TextView
+            android:id="@+id/tv_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_facebook"
+            android:layout_below="@id/tv_aboutusdescription"
+            android:layout_marginTop="35dp"
+            android:text="Pet House"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:id="@+id/tv_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_instagram"
+            android:layout_below="@id/tv_facebook"
+            android:layout_marginTop="30dp"
+            android:text="pethouse_jkt"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_twitter"
+            android:layout_below="@id/tv_instagram"
+            android:layout_marginTop="30dp"
+            android:text="PetHouse_jkt"
+            android:layout_marginStart="15dp"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+<!--    Edited By: Eric
+        Purpose: Menambahkan imageView dll
+        Date: 25 April 2020 23:49-->
+
+
+    <ImageView
+        android:id="@+id/iv_cardpromo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <ImageView
+        android:id="@+id/iv_backbutton"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_back" />
+    <TextView
+        android:id="@+id/tv_headerpromo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="222dp"
+        android:text="Promo Pengguna Baru"
+        android:textColor="@color/colorMain"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+<!--    Kode Promo-->
+    <TextView
+        android:id="@+id/tv_kodepromotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="270dp"
+        android:text="Kode Promo:"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_kodepromo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="271dp"
+        android:text="NEWPETHOUSE"
+        android:textColor="@color/colorMain"/>
+
+    <TextView
+        android:id="@+id/tv_descriptiontitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="317dp"
+        android:text="Deskripsi Promo"
+        android:textColor="@color/colorMain"/>
+
+    <TextView
+        android:layout_below="@id/tv_descriptiontitle"
+        android:id="@+id/tv_contentdescription"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:text="Isi Deskripsi"/>
+
+</RelativeLayout>
